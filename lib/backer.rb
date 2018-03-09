@@ -8,6 +8,7 @@ class Backer
 
   def back_project(proj_obj)
     self.backed_projects << proj_obj
+    proj_obj.backers = self
   end
 
 
