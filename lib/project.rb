@@ -10,7 +10,4 @@ class Project
     self.backers << backer_obj
     backer_obj.backed_projects << self
   end
-
-
-
-end
+end # => End Project Class
